@@ -1,0 +1,17 @@
+.list-container {
+  color: var(--gray-100);
+  font-size: 0.85rem;
+
+  .item-list {
+    background-color: var(--gray-500);
+
+    .check-list {
+      cursor: pointer;
+      flex: 1;
+    }
+
+    .trash-button {
+      cursor: pointer;
+    }
+  }
+}

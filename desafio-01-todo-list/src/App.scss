@@ -1,0 +1,50 @@
+.todo-container {
+  width: 60%;
+
+  .form-container {
+    input {
+      &.new-ticket {
+        background-color: var(--gray-500);
+        border: transparent;
+        color: var(--gray-100);
+        font-size: 1rem;
+      }
+    }
+
+    .add-button {
+      background-color: var(--blue);
+    }
+  }
+
+  .todo-list-container {
+    .todo-list-header {
+      font-size: 0.85rem;
+
+      .ticket-created {
+        color: var(--blue);
+      }
+
+      .ticket-done {
+        color: var(--purple);
+      }
+
+      span {
+        background-color: var(--gray-400);
+        color: var(--gray-200);
+        padding: 2px 8px;
+      }
+    }
+
+    .todo-list-content {
+      &.empty-list {
+        border-top: 1px solid var(--gray-400);
+
+        p {
+          line-height: 140%;
+          font-size: 1rem;
+          color: var(--gray-300);
+        }
+      }
+    }
+  }
+}
